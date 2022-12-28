@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7CF35952855103900D67D13 /* Dads_Garage_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35942855103900D67D13 /* Dads_Garage_AppApp.swift */; };
-		B7CF35972855103900D67D13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35962855103900D67D13 /* ContentView.swift */; };
+		B7CF35952855103900D67D13 /* Dads_Garage_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35942855103900D67D13 /* Dads_Garage_App.swift */; };
+		B7CF35972855103900D67D13 /* DadsGarageOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35962855103900D67D13 /* DadsGarageOpener.swift */; };
 		B7CF35992855103B00D67D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CF35982855103B00D67D13 /* Assets.xcassets */; };
 		B7CF359C2855103B00D67D13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CF359B2855103B00D67D13 /* Preview Assets.xcassets */; };
+		B7CF35A8285567D500D67D13 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35A7285567D500D67D13 /* SplashView.swift */; };
+		B7CF35AB285569A200D67D13 /* welcomeSetupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35AA285569A200D67D13 /* welcomeSetupViewModel.swift */; };
+		B7CF35AD285569D900D67D13 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35AC285569D900D67D13 /* WelcomeView.swift */; };
+		B7CF35B028556D9C00D67D13 /* UtilityStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35AF28556D9C00D67D13 /* UtilityStructs.swift */; };
+		B7CF35B228556EA400D67D13 /* ShowGarageLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35B128556EA400D67D13 /* ShowGarageLocationView.swift */; };
+		B7CF35B42855703700D67D13 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35B32855703700D67D13 /* LocationManager.swift */; };
+		B7CF35BA2856475D00D67D13 /* GarageLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35B92856475D00D67D13 /* GarageLocationViewModel.swift */; };
+		B7CF35BC2856576000D67D13 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35BB2856576000D67D13 /* UtilityExtensions.swift */; };
+		B7CF35C028565D8600D67D13 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF35BF28565D8600D67D13 /* HomeKit.framework */; };
+		B7CF35C228565F7400D67D13 /* HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35C128565F7400D67D13 /* HomeManager.swift */; };
+		B7CF35C82856958100D67D13 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35C72856958100D67D13 /* UtilityFunctions.swift */; };
+		B7CF35CC2856999E00D67D13 /* ChooseRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35CB2856999E00D67D13 /* ChooseRadiusView.swift */; };
+		B7CF35CE28569DDC00D67D13 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35CD28569DDC00D67D13 /* LogView.swift */; };
+		B7CF35D22856B78200D67D13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35D12856B78200D67D13 /* ProfileView.swift */; };
+		B7CF35D42856B80400D67D13 /* ChangeRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35D32856B80400D67D13 /* ChangeRadiusView.swift */; };
+		B7CF35D62856C1A000D67D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35D52856C1A000D67D13 /* AppDelegate.swift */; };
+		B7CF35D92857859E00D67D13 /* Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35D72857859E00D67D13 /* Log.xcdatamodeld */; };
+		B7CF35DB285786A800D67D13 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF35DA285786A800D67D13 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B7CF35912855103900D67D13 /* Dads Garage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dads Garage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7CF35942855103900D67D13 /* Dads_Garage_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dads_Garage_AppApp.swift; sourceTree = "<group>"; };
-		B7CF35962855103900D67D13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7CF35942855103900D67D13 /* Dads_Garage_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dads_Garage_App.swift; sourceTree = "<group>"; };
+		B7CF35962855103900D67D13 /* DadsGarageOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadsGarageOpener.swift; sourceTree = "<group>"; };
 		B7CF35982855103B00D67D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7CF359B2855103B00D67D13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7CF35A7285567D500D67D13 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B7CF35AA285569A200D67D13 /* welcomeSetupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeSetupViewModel.swift; sourceTree = "<group>"; };
+		B7CF35AC285569D900D67D13 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		B7CF35AF28556D9C00D67D13 /* UtilityStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityStructs.swift; sourceTree = "<group>"; };
+		B7CF35B128556EA400D67D13 /* ShowGarageLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowGarageLocationView.swift; sourceTree = "<group>"; };
+		B7CF35B32855703700D67D13 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B7CF35B92856475D00D67D13 /* GarageLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageLocationViewModel.swift; sourceTree = "<group>"; };
+		B7CF35BB2856576000D67D13 /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		B7CF35BD28565D8600D67D13 /* Dads Garage App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dads Garage App.entitlements"; sourceTree = "<group>"; };
+		B7CF35BF28565D8600D67D13 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		B7CF35C128565F7400D67D13 /* HomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManager.swift; sourceTree = "<group>"; };
+		B7CF35C72856958100D67D13 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		B7CF35CB2856999E00D67D13 /* ChooseRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRadiusView.swift; sourceTree = "<group>"; };
+		B7CF35CD28569DDC00D67D13 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		B7CF35D12856B78200D67D13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B7CF35D32856B80400D67D13 /* ChangeRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRadiusView.swift; sourceTree = "<group>"; };
+		B7CF35D52856C1A000D67D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7CF35D82857859E00D67D13 /* Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Log.xcdatamodel; sourceTree = "<group>"; };
+		B7CF35DA285786A800D67D13 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7CF35C028565D8600D67D13 /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +75,7 @@
 			children = (
 				B7CF35932855103900D67D13 /* Dads Garage App */,
 				B7CF35922855103900D67D13 /* Products */,
+				B7CF35BE28565D8600D67D13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +90,15 @@
 		B7CF35932855103900D67D13 /* Dads Garage App */ = {
 			isa = PBXGroup;
 			children = (
-				B7CF35942855103900D67D13 /* Dads_Garage_AppApp.swift */,
-				B7CF35962855103900D67D13 /* ContentView.swift */,
+				B7CF35BD28565D8600D67D13 /* Dads Garage App.entitlements */,
+				B7CF35DC285786C700D67D13 /* Core data */,
+				B7CF35AE28556D8000D67D13 /* Utilities */,
+				B7CF35A42855124700D67D13 /* Models */,
+				B7CF35A32855123F00D67D13 /* ViewModels */,
+				B7CF35A22855123300D67D13 /* Views */,
+				B7CF35942855103900D67D13 /* Dads_Garage_App.swift */,
+				B7CF35A7285567D500D67D13 /* SplashView.swift */,
+				B7CF35962855103900D67D13 /* DadsGarageOpener.swift */,
 				B7CF35982855103B00D67D13 /* Assets.xcassets */,
 				B7CF359A2855103B00D67D13 /* Preview Content */,
 			);
@@ -65,6 +111,81 @@
 				B7CF359B2855103B00D67D13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7CF35A22855123300D67D13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35A92855698A00D67D13 /* setup */,
+				B7CF35CD28569DDC00D67D13 /* LogView.swift */,
+				B7CF35D12856B78200D67D13 /* ProfileView.swift */,
+				B7CF35D32856B80400D67D13 /* ChangeRadiusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7CF35A32855123F00D67D13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35B82856472C00D67D13 /* setup */,
+				B7CF35B32855703700D67D13 /* LocationManager.swift */,
+				B7CF35C128565F7400D67D13 /* HomeManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B7CF35A42855124700D67D13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7CF35A92855698A00D67D13 /* setup */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35AC285569D900D67D13 /* WelcomeView.swift */,
+				B7CF35B128556EA400D67D13 /* ShowGarageLocationView.swift */,
+				B7CF35CB2856999E00D67D13 /* ChooseRadiusView.swift */,
+			);
+			path = setup;
+			sourceTree = "<group>";
+		};
+		B7CF35AE28556D8000D67D13 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35AF28556D9C00D67D13 /* UtilityStructs.swift */,
+				B7CF35BB2856576000D67D13 /* UtilityExtensions.swift */,
+				B7CF35C72856958100D67D13 /* UtilityFunctions.swift */,
+				B7CF35D52856C1A000D67D13 /* AppDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B7CF35B82856472C00D67D13 /* setup */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35AA285569A200D67D13 /* welcomeSetupViewModel.swift */,
+				B7CF35B92856475D00D67D13 /* GarageLocationViewModel.swift */,
+			);
+			path = setup;
+			sourceTree = "<group>";
+		};
+		B7CF35BE28565D8600D67D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35BF28565D8600D67D13 /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7CF35DC285786C700D67D13 /* Core data */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF35DA285786A800D67D13 /* DataController.swift */,
+				B7CF35D72857859E00D67D13 /* Log.xcdatamodeld */,
+			);
+			path = "Core data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +258,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7CF35972855103900D67D13 /* ContentView.swift in Sources */,
-				B7CF35952855103900D67D13 /* Dads_Garage_AppApp.swift in Sources */,
+				B7CF35C228565F7400D67D13 /* HomeManager.swift in Sources */,
+				B7CF35AD285569D900D67D13 /* WelcomeView.swift in Sources */,
+				B7CF35D62856C1A000D67D13 /* AppDelegate.swift in Sources */,
+				B7CF35B028556D9C00D67D13 /* UtilityStructs.swift in Sources */,
+				B7CF35AB285569A200D67D13 /* welcomeSetupViewModel.swift in Sources */,
+				B7CF35CC2856999E00D67D13 /* ChooseRadiusView.swift in Sources */,
+				B7CF35CE28569DDC00D67D13 /* LogView.swift in Sources */,
+				B7CF35DB285786A800D67D13 /* DataController.swift in Sources */,
+				B7CF35D42856B80400D67D13 /* ChangeRadiusView.swift in Sources */,
+				B7CF35BA2856475D00D67D13 /* GarageLocationViewModel.swift in Sources */,
+				B7CF35A8285567D500D67D13 /* SplashView.swift in Sources */,
+				B7CF35D22856B78200D67D13 /* ProfileView.swift in Sources */,
+				B7CF35B42855703700D67D13 /* LocationManager.swift in Sources */,
+				B7CF35972855103900D67D13 /* DadsGarageOpener.swift in Sources */,
+				B7CF35D92857859E00D67D13 /* Log.xcdatamodeld in Sources */,
+				B7CF35B228556EA400D67D13 /* ShowGarageLocationView.swift in Sources */,
+				B7CF35BC2856576000D67D13 /* UtilityExtensions.swift in Sources */,
+				B7CF35C82856958100D67D13 /* UtilityFunctions.swift in Sources */,
+				B7CF35952855103900D67D13 /* Dads_Garage_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +402,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dads Garage App/Dads Garage App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dads Garage App/Preview Content\"";
 				DEVELOPMENT_TEAM = B4H6FWY3Z6;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dads-Garage-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "This app needs Homekit to open and close your garage.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location at all times to know when to open the garage for you.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location at all times to know when to open the garage for you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +438,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dads Garage App/Dads Garage App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dads Garage App/Preview Content\"";
 				DEVELOPMENT_TEAM = B4H6FWY3Z6;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dads-Garage-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHomeKitUsageDescription = "This app needs Homekit to open and close your garage.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location at all times to know when to open the garage for you.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location at all times to know when to open the garage for you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +491,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7CF35D72857859E00D67D13 /* Log.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7CF35D82857859E00D67D13 /* Log.xcdatamodel */,
+			);
+			currentVersion = B7CF35D82857859E00D67D13 /* Log.xcdatamodel */;
+			path = Log.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B7CF35892855103900D67D13 /* Project object */;
 }
